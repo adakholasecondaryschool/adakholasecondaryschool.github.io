@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+    <link rel="shortcut icon" type="image" href="school logo.png">
+    <title>আদাখোলা মাধ্যমিক বিদ্যালয়</title>
+    <script src="https://kit.fontawesome.com/2bbac022ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="school logo 2.png" class="logo">
+        <div>
+            <h3 class="intro">আদাখোলা মাধ্যমিক বিদ্যালয়</h3>
+            <h5 class="intro2">Adakhola Secondary School</h5>
+        </div>
+        <nav>
+            <ul id="menuList">
+                <li><a href="index.html">home</a></li>
+                <li><a href="teachers.html">teachers</a></li>
+                <li><a href="result.html">result</a></li>
+            </ul>
+        </nav>
+        <i class="fa-sharp fa-solid fa-bars" id="menu-icon" onclick="togglemenu()"></i>
+    </div>
+    <div class="body">
+        <div class="container">
+            <div class="banner">
+                <div class="header">
+                    <marquee scrolldelay="130" class="scroll-txt">কোভিড-১৯ প্রতিরোধে মাস্ক পড়ুন এবং নিয়মিত সাবান ও পানি
+                        দিয়ে দু-হাত ভালোভাবে পরিষ্কার করুন। </marquee>
+                </div>
+            </div>
+
+            <div class="result">
+                <h3 class="title">Board Result</h3>
+                <table border="1">
+                    <tr style="background: rgba(50, 205, 159, 0.35)">
+                        <th>year</th>
+                        <th>exam</th>
+                        <th width="18%">appeared</th>
+                        <th>passed</th>
+                        <th width="30%">percentage of pass</th>
+                        <th>gpa 5</th>
+                    </tr>
+                    <tr>
+                        <th>2022</th>
+                        <td>SSC</td>
+                        <td>59</td>
+                        <td>55</td>
+                        <td>93.22%</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>2021</th>
+                        <td>SSC</td>
+                        <td>68</td>
+                        <td>63</td>
+                        <td>92.65%</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">2020</th>
+                        <td>SSC</td>
+                        <td>75</td>
+                        <td>75</td>
+                        <td>100%</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>JSC</td>
+                        <td>80</td>
+                        <td>80</td>
+                        <td>100%</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">2019</th>
+                        <td>SSC</td>
+                        <td>68</td>
+                        <td>49</td>
+                        <td>72.06%</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>JSC</td>
+                        <td>75</td>
+                        <td>75</td>
+                        <td>100%</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">2018</th>
+                        <td>SSC</td>
+                        <td>63</td>
+                        <td>44</td>
+                        <td>69.84%</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>JSC</td>
+                        <td>82</td>
+                        <td>81</td>
+                        <td>98.78%</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">2017</th>
+                        <td>SSC</td>
+                        <td>66</td>
+                        <td>61</td>
+                        <td>92.42%</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>JSC</td>
+                        <td>84</td>
+                        <td>84</td>
+                        <td>100%</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="dev">
+            Powered by LCFR
+        </p>
+        <p class="p-footer1">
+            Copyright © 2023
+        </p>
+        <p class="p-footer2">
+            All Rights Reserved
+        </p>
+    </div>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "110px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

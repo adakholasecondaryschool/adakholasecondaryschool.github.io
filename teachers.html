@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আদাখোলা মাধ্যমিক বিদ্যালয়</title>
+    <link rel="stylesheet" href="teachers.css">
+    <link rel="shortcut icon" type="image" href="school logo.png">
+    <script src="https://kit.fontawesome.com/2bbac022ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="school logo 2.png" class="logo">
+        <div>
+            <h3 class="intro">আদাখোলা মাধ্যমিক বিদ্যালয়</h3>
+            <h5 class="intro2">Adakhola Secondary School</h5>
+        </div>
+        <nav>
+            <ul id="menuList">
+                <li><a href="index.html">home</a></li>
+                <li><a href="teachers.html">teachers</a></li>
+                <li><a href="result.html">result</a></li>
+            </ul>
+        </nav>
+        <i class="fa-sharp fa-solid fa-bars" id="menu-icon" onclick="togglemenu()"></i>
+    </div>
+    <div class="body">
+        <div class="container">
+            <div class="banner">
+                <div class="header">
+                    <marquee scrolldelay="130" class="scroll-txt">কোভিড-১৯ প্রতিরোধে মাস্ক পড়ুন এবং নিয়মিত সাবান ও পানি
+                        দিয়ে দু-হাত ভালোভাবে পরিষ্কার করুন।
+                    </marquee>
+                </div>
+            </div>
+
+            <div class="teachers-div">
+                <h3 class="title">Teachers</h3>
+                <div class="t-div">
+                    <div class="row-1">
+                        <div class="t-card t-1">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Kamal Hossain</h4>
+                            <h6>Headmaster</h6>
+                        </div>
+                        <div class="t-card t-2">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Saiful Amin</h4>
+                            <h6>Assist. Headmaster</h6>
+                        </div>
+                        <div class="t-card t-3">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Susanta Howlader</h4>
+                            <h6>Assist. Teacher</h6>
+                        </div>
+                        <div class="t-card t-4">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Mosharraf Hossain Sik.</h4>
+                            <h6>Muslim R. Teacher</h6>
+                        </div>
+                        <div class="t-card t-5">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Yousuf Ali Howlader</h4>
+                            <h6>Agriculture</h6>
+                        </div>
+                    </div>
+                    <div class="row-2">
+                        <div class="t-card t-6">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Tapati Rani Maitra</h4>
+                            <h6>Comp. Teacher</h6>
+                        </div>
+                        <div class="t-card t-7">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Issahak Howlader</h4>
+                            <h6>Undetermined</h6>
+                        </div>
+                        <div class="t-card t-8">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Sujan Kumer Roy</h4>
+                            <h6>Hindu R. Teacher</h6>
+                        </div>
+                        <div class="t-card t-9">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Naznin Akter</h4>
+                            <h6>Undetermined</h6>
+                        </div>
+                        <div class="t-card t-10">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Mst. Farida Eyasmin</h4>
+                            <h6>Assist. Teacher</h6>
+                        </div>
+                    </div>
+                    <div class="row-3">
+                        <div class="t-card t-6">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Bahadur Shah Munna</h4>
+                            <h6>Phys. Teacher</h6>
+                        </div>
+                        <div class="t-card t-7">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Nazma Akter</h4>
+                            <h6>Assist. Teacher (Science)</h6>
+                        </div>
+                        <div class="t-card t-8">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>Rajeshor Bepary</h4>
+                            <h6>3rd Class Employee</h6>
+                        </div>
+                        <div class="t-card t-9">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Abdul Mazid</h4>
+                            <h6>4th Class Employee</h6>
+                        </div>
+                        <div class="t-card t-10">
+                            <img src="person.png" width="115px" height="120px">
+                            <h4>MD. Zalil Howlader</h4>
+                            <h6>4th Class Employee</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="dev">
+            Powered by LCFR
+        </p>
+        <p class="p-footer1">
+            Copyright © 2023
+        </p>
+        <p class="p-footer2">
+            All Rights Reserved
+        </p>
+    </div>
+    
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "110px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
